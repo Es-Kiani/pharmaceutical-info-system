@@ -1,10 +1,64 @@
-# Getting Started with Create React App
+# Pic 1
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![](./pics/ScSh.png)
+
+
+# Pic 2
+
+![](./pics/ScSh(2).png)
+
+
+# Pic 3
+
+![](./pics/ScSh(3).png)
+
+
+# Pic 4
+
+![](./pics/ScSh(4).png)
+
+
+# Pic 5
+
+![](./pics/ScSh(5).png)
+
+
+# Pic 6
+
+![](./pics/ScSh(6).png)
+
+
+# Pic 7
+
+![](./pics/ScSh(7).png)
+
+
+# Pic 8
+
+![](./pics/ScSh(8).png)
+
+
+# Pic 9
+
+![](./pics/ScSh(9).png)
+
+
+# Pic 10
+
+![](./pics/ScSh(10).png)
+
+
+
+
+
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `json-server --watch db.json --port 4000`
+
+Runs the app in the development mode.\
 
 ### `npm start`
 
@@ -13,6 +67,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+
 
 ### `npm test`
 

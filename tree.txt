@@ -1,0 +1,92 @@
+my-app
+├── .gitignore
+├── db-backup.json
+├── db.json
+├── package-lock.json
+├── package.json
+├── public
+│   ├── abstract-blue-wavy-sea-background_402975-39.jpg
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── logo192.png
+│   ├── logo512.png
+│   ├── manifest.json
+│   ├── pills.png
+│   └── robots.txt
+├── README.md
+└── src
+    ├── AppRouter.js
+    ├── components
+    │   ├── Carousel
+    │   │   ├── Slideshow.css
+    │   │   └── Slideshow.jsx
+    │   ├── DrugItem
+    │   │   ├── DrugItem.css
+    │   │   └── DrugItem.jsx
+    │   └── PostItem
+    │       ├── PostItem.css
+    │       └── PostItem.jsx
+    ├── images
+    │   ├── 31082021-04.eps
+    │   ├── 31082021-04_generated.jpg
+    │   ├── 31082021-04_generated.png
+    │   ├── 800_3945287_rudp1onpnq64uu15knr0owxdc9zh55wdk7tvnqnz_announcement-of-breaking-news-icon-flat-style.jpg
+    │   ├── bc-011-eddited1.png
+    │   ├── bc-011.png
+    │   ├── ezgif.com-webp-to-jpg.jpg
+    │   ├── ezgif.com-webp-to-jpg_auto_x2.png
+    │   ├── icons8-facebook-100.png
+    │   ├── icons8-facebook1-100.png
+    │   ├── icons8-facebook1-50.png
+    │   ├── icons8-facebook2-64.png
+    │   ├── icons8-google-100.png
+    │   ├── icons8-instagram-100.png
+    │   ├── icons8-linkedin-100.png
+    │   ├── icons8-location1-100.png
+    │   ├── icons8-location2-100.png
+    │   ├── icons8-lock.png
+    │   ├── icons8-lock.svg
+    │   ├── icons8-mail1-100.png
+    │   ├── icons8-mail2-100.png
+    │   ├── icons8-mail3-100.png
+    │   ├── icons8-mail4-100.png
+    │   ├── icons8-phone1-100.png
+    │   ├── icons8-phone2-100.png
+    │   ├── icons8-pills-100 (2).png
+    │   ├── icons8-pills-100.png
+    │   ├── icons8-pills-64.png
+    │   ├── icons8-pills-flaticons-lineal-color.zip
+    │   ├── icons8-pills1-100.png
+    │   ├── icons8-twitter-squared-100.png
+    │   ├── image_processing20200902-8390-ozom491.png
+    │   ├── pills.png
+    │   ├── Vecteezy-License-Information.pdf
+    │   └── vecteezy_hand-drawn-minimalist-fluid-shapes-background_3112016.zip
+    ├── index.css
+    ├── index.js
+    ├── pages
+    │   ├── AboutPage.css
+    │   ├── AboutPage.jsx
+    │   ├── BlogPage.css
+    │   ├── BlogPage.jsx
+    │   ├── ContactPage.css
+    │   ├── ContactPage.jsx
+    │   ├── ControlPanelPage.css
+    │   ├── ControlPanelPage.jsx
+    │   ├── DashboardPage.css
+    │   ├── DashboardPage.jsx
+    │   ├── DrugInfoPage.css
+    │   ├── DrugInfoPage.jsx
+    │   ├── HomePage.css
+    │   ├── HomePage.jsx
+    │   ├── LoginPage.css
+    │   ├── LoginPage.jsx
+    │   ├── LogoutPage.jsx
+    │   ├── PassgenPage.css
+    │   ├── PassgenPage.jsx
+    │   ├── RegisterPage.css
+    │   ├── RegisterPage.jsx
+    │   ├── ResetPasswordPage.css
+    │   └── ResetPasswordPage.jsx
+    ├── reportWebVitals.js
+    └── setupTests.js

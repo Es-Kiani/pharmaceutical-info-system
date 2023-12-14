@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(249, 253, 1);
+    color: #111111;
+}
+
+/* .active:hover {
+    background-color: #036944;
+} */
+
+.active {
+    background-color: #00ac8f;
+}
+
+.lstChld {
+    float: right;
+}
+
+.frsChld {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.lrtt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.register-container {
+    background-color: #fdefe0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.register-form {
+    background: #f2f2f2;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+}
+
+.register-form .hh {
+    margin: 0;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.form-groupR {
+    margin-bottom: 20px;
+}
+
+.form-groupR-passwd1 {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin: 0px;
+}
+
+.form-groupR-passwd2 {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-left: 10px;
+}
+
+.label {
+    display: block;
+    font-size: 1rem;
+    color: #666;
+}
+
+.input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    font-size: 1rem;
+    color: #333;
+}
+
+/* .labelpasswd{
+    display: block;
+    justify-content: left;
+    align-items: left;
+    font-size: 1rem;
+    color: #666;
+} */
+
+.inputpasswd {
+    width: 65%;
+    height: 50%;
+    margin-top: 19px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.button:disabled {
+    background-image: #6d6d6d;
+}
+
+.button {
+    /* background-color: #74eb2f; */
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 100px;
+    cursor: pointer;
+    font-size: 18px;
+    background-image: linear-gradient(
+        90deg,
+        rgb(240, 77, 255) 0%,
+        rgb(30, 184, 255) 100%
+    );
+}
+
+.button:hover {
+    background-image: linear-gradient(
+        90deg,
+        rgb(234, 1, 255) 0%,
+        rgb(0, 110, 255) 100%
+    );
+}
+
+label {
+    float: left;
+    padding-left: 5px;
+}
+
+.passgen {
+    width: 75px;
+    height: 75px;
+    margin-left: 25px;
+}
+
+.navbarLogo {
+    margin-top: 9px;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 35px;
+    height: 35px;
+}

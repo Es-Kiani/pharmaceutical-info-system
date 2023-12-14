@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 55px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    height: 55px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(249, 253, 1);
+    color: #111111;
+}
+
+/* .active:hover {
+    background-color: #036944;
+} */
+
+.active {
+    background-color: #00ac8f;
+}
+
+.lstChld {
+    float: right;
+}
+
+.frsChld {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.lrtt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.navbarLogo {
+    margin-top: 90px;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 35px;
+    height: 35px;
+}
+
+
+
+.chosenDrug {
+    direction: rtl;
+    margin: 75px auto 65px auto;
+    background-color: #fbff00;
+    color: #000;
+    padding: 15px;
+    border-radius: 20px;
+    width: 80%;
+}
+
+.chosenDrug-filed {
+    display: flex;
+    gap: 10px;
+    font-size: 19px;
+    margin-top: 5px;
+    align-items: center;
+}
+
+.chosenDrug-filed__label {
+    font-weight: 800;
+}
+
+.chosenDrug-filed__answer {
+    font-weight: 400;
+}
+
+/* .chosenDrug-filed__answer {
+    line-height: 26px;
+} */

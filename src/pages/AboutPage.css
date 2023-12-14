@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 55px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    height: 55px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(249, 253, 1);
+    color: #111111;
+}
+
+/* .active:hover {
+    background-color: #036944;
+} */
+
+.active {
+    background-color: #00ac8f;
+}
+
+.lstChld {
+    float: right;
+}
+
+.frsChld {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.lrtt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.navbarLogo {
+    margin-top: 9px;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 35px;
+    height: 35px;
+}
+
+.about-container {
+    background-image: url("../images/ezgif.com-webp-to-jpg_auto_x2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 93vh;
+    margin-top: 50px;
+}
+
+.content {
+    color: #fff;
+    /* background-color: rgba(1, 238, 255, 0.2); */
+    box-shadow: 0 0 45px rgb(255, 251, 0);
+    border-radius: 35px;
+    margin-left: 80px;
+    padding: 25px;
+    width: 35%;
+    /* opacity: 0.9; */
+}
+
+.about-title {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 24px;
+    /* opacity: 1; */
+}
+
+.about-text p {
+    text-align: justify;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 15px 5px;
+    /* opacity: 1; */
+}
+
+
+
+.contact-btn-p{
+
+    display: flex;
+}
+
+.contact-btn {
+    /* display: inline-block; */
+    padding: 13.5px 23.5px;
+    background-color: #eeff00;
+    color: #000;
+    text-decoration: none;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background-color 0.3s;
+    justify-content: center;
+    align-items: center; 
+    text-align: center; 
+    margin-left: 165px;
+}
+
+.contact-btn:hover {
+    background-color: #becc00;
+}

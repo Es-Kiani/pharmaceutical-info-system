@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 55px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    height: 55px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(249, 253, 1);
+    color: #111111;
+}
+
+/* .active:hover {
+    background-color: #036944;
+} */
+
+.active {
+    background-color: #00ac8f;
+}
+
+.lstChld {
+    float: right;
+    padding-right: 15px;
+}
+
+.frsChld {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.lrtt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.navbarLogo {
+    margin-top: 9px;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 35px;
+    height: 35px;
+}
+
+.bgdiv {
+    background-image: url("../images/31082021-04_generated.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+}
+
+.dashboard {
+    margin-top: 3rem;
+    display: flex;
+}
+
+.l-sec {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 50%;
+
+    margin: 80px auto;
+}
+
+.r-sec {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 50%;
+}
+
+.dashboard-form {
+    margin: auto auto auto 115px;
+    width: 74%;
+    gap: 3rem;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 20px #555;
+    background-color: #eee;
+}
+
+.dashboard-form__filed {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.dashboard-form__label {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.dashboard-form__input {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: 0.15rem solid #82aae3;
+    margin-left: 15px;
+    margin-bottom: 25px;
+}
+
+textarea {
+    width: 85%;
+}
+
+.dashboard-form__btn {
+    border: none;
+    background-color: #4987dd;
+    padding: 15px 25px;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: 330px;
+}
+
+textarea.dashboard-form__input {
+    resize: vertical;
+}
+
+.dashboard-form__btn:disabled {
+    background-color: #dddada;
+    cursor: default;
+}
+
+.noDrug,
+.loading {
+    text-align: center;
+}
